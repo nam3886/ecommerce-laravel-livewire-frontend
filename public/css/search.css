@@ -1,0 +1,132 @@
+.search-modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease-in-out;
+    transform: translate(-100%, 0);
+    opacity: 0;
+    z-index: 99999;
+    overflow-y: scroll;
+}
+
+.search-modal.open {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.search-form {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.search-form .search-area {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+.search-modal input[type="search"] {
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    border: 0px;
+    margin: 0px auto;
+    margin-top: -51px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+.search-modal input[type="search"]:focus {
+    border-color: #b19361;
+}
+
+.search-modal .btn {
+    position: absolute;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    left: unset;
+    right: 10%;
+    transform: rotateY(180deg) translate(0px, -10px);
+}
+.search-modal .btn i {
+    font-size: 30px;
+}
+
+.search-modal .close {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    opacity: 1;
+    font-size: 27px;
+}
+
+.search-modal ul.autocomplete {
+    margin: auto;
+    width: 80%;
+}
+.search-modal ul.search-list {
+    margin: auto;
+    width: 80%;
+}
+.search-modal ul.search-list li {
+    text-align: start;
+}
+.search-modal ul.search-list li > span {
+    color: #b19361;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.search-modal ul.autocomplete li {
+    padding: 0.5rem 0.75rem;
+    text-align: start;
+    color: #b19361;
+    border-color: #b19361;
+    background: transparent;
+    border-radius: 5px;
+}
+.search-modal ul.autocomplete li a,
+.search-modal ul.autocomplete li span {
+    color: #b19361;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 2;
+    display: block;
+}
+.search-modal ul.autocomplete li:hover {
+    background: #b19361;
+    border-color: #b19361;
+}
+.search-modal ul.autocomplete li.not:hover {
+    border-color: #b19361;
+    background: transparent;
+}
+.search-modal ul.autocomplete li:hover a {
+    color: #fff;
+}
+@media (max-width: 991.98px) {
+    .search-modal ul.autocomplete li a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767.98px) {
+    .search-modal ul.autocomplete li a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 575.98px) {
+    .search-modal ul.autocomplete li a {
+        font-size: 13px;
+    }
+}

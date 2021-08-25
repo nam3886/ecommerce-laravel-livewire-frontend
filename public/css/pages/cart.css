@@ -1,0 +1,82 @@
+.product_remove button,
+button.like-a {
+    color: #777;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    outline: none;
+}
+.color-golden .product_remove button:hover,
+.color-golden button.like-a:hover {
+    color: #b19361;
+}
+.cart_submit {
+    text-align: right;
+    padding: 12px;
+}
+
+.coupon_code {
+    border: 1px solid #ededed;
+    margin-top: 60px;
+}
+.coupon_code h3,
+.coupon_code .h3 {
+    color: #ffffff;
+    line-height: 36px;
+    padding: 5px 15px;
+    background: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.coupon_inner {
+    padding: 10px 20px 25px;
+}
+.coupon_inner p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.coupon_inner input {
+    border: 1px solid #ededed;
+    height: 42px;
+    background: none;
+    padding: 0 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #333;
+    width: 175px;
+}
+.coupon_inner a {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.cart_subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_subtotal p {
+    font-weight: 600;
+    font-size: 14px;
+}
+.cart_subtotal p span {
+    margin-right: 30px;
+}
+.cart_subtotal .cart_amount {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.checkout_btn {
+    text-align: right;
+}
+.checkout_btn .btn {
+    display: inline-block;
+    font-weight: 700;
+}

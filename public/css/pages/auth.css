@@ -1,0 +1,90 @@
+.login-social > h5 {
+    font-size: 14px;
+    color: #7D7F81;
+    font-weight: 600;
+}
+.social-list-item {
+    height: 2rem;
+    width: 2rem;
+    line-height: calc(2rem - 2px);
+    display: block;
+    border: 2px solid #adb5bd;
+    border-radius: 50%;
+    color: #adb5bd;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.social-list-item:hover {
+    color: #74788d;
+    background-color: #eff2f7;
+}
+.social-list-item.facebook {
+    background-color: #556ee6;
+    color: #fff;
+    border-color: #556ee6;
+}
+.social-list-item.facebook:hover {
+    background-color: #2948df;
+}
+.social-list-item.twitter {
+    background-color: #50a5f1;
+    color: #fff;
+    border-color: #50a5f1;
+}
+.social-list-item.twitter:hover {
+    background-color: #218ded;
+}
+.social-list-item.google {
+    background-color: #f46a6a;
+    color: #fff;
+    border-color: #f46a6a;
+}
+.social-list-item.google:hover {
+    background-color: #f03b3b;
+}
+.social-list-item.github {
+    background-color: #2f3031;
+    color: #fff;
+    border-color: #2f3031;
+}
+.social-list-item.github:hover {
+    background-color: #131418;
+}
+.account_form.register {
+    margin-top: 60px;
+}
+@media (min-width: 768px) {
+    .account_form.register {
+        margin-top: 0;
+    }
+}
+.account_form h3,
+.account_form .h3 {
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.account_form form {
+    border: 1px solid #ededed;
+    padding: 23px 20px 29px;
+    border-radius: 5px;
+}
+
+.login_submit * {
+    display: block;
+}
+.login_submit label span {
+    line-height: normal;
+}
+.login_submit a.information {
+    display: inline;
+    color: #b19361;
+    text-decoration: underline;
+}
+form span.required,
+span.required {
+    color: #fa755a;
+}

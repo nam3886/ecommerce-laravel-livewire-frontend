@@ -1,0 +1,22 @@
+.btn-spinner > .spinner {
+    display: none;
+}
+.btn-spinner > .spinner.loading {
+    display: flex;
+    align-items: center;
+}
+.btn-spinner > .spinner > .text {
+    margin-left: 0.25rem;
+    line-height: 1.2;
+}
+svg path,
+svg rect {
+    fill: #dadde1;
+}
+.shop-loading svg path,
+.shop-loading svg rect {
+    fill: #000;
+}
+.dashboard_tab_button li .btn-spinner > .spinner > .text {
+    line-height: unset;
+}
